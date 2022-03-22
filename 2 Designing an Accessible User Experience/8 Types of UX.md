@@ -147,3 +147,28 @@ Don't use `aria-describedby` to associate a transcript - it is read before the f
 - Screen reader techniques.
 
 ## Deaf: A Silent Visual UX
+
+### Multimedia
+
+Audio and video are the big challenge. Gotta provide captions:
+- Captions as separate, synchronized files, not (only) embedded in the video. Leaving them separate makes it possible to lose them as a video is copied and sent to different people.
+- Multiple formats: https://captioneasy.com/subtitle-file-formats/
+  - WebVTT is very versatile because the settings are at the OS level
+- Provide caption customization in the media player on the web, in case the browser doesn't support WebVTT
+  - text color, background color, text size, font, and caption placement
+  - Save the settings for that user if possible so they don't have to adjust for every video.
+
+### Live Events
+
+Live events require captions, which requires a live transcriber.
+
+- Use a professional broadcast system to embed the captions in real time
+- Use AJAX to provide synchronized captions with the video.
+
+### Sign Language
+
+For many people who are deaf, Sign Language is their first and most fluent language. It can be more useful than text for some folks, especially when the text disappears quickly.
+
+- Include a Sign-Language interpreter in the original video
+- Use Picture-in-picture to add an interpreter in or next to the video.
+- Allow the user to turn the sign language on and off
