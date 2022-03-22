@@ -110,4 +110,40 @@ Possible solutions:
 - "Load more live text": A button to allow users to load more live information as they wish, creating a natural place to change focus.
 
 ## Deafblind: A Tactile-Structure Text-only UX
+
+Deafblind users benefit from the same techniques as blind users because they also use screen readers. The difference is that they often use a refreshable braille device instead of software to read the text on the screen.
+
+### Everything must be in a text format
+
+There are no exceptions, but many nuances:
+
+- The alt text for images counts as text.
+- Labels, including invisible labels like aria-label count as text, as long as the elements are not hidden from screen readers via aria-hidden="true".
+- ARIA live announcements, whether visible on screen or not, count as text.
+- It can be acceptable under some uncommon circumstances to add visually-hidden text just for screen reader users via the CSS clip method, but this method should be used only as a last resort.
+- Synchronized captions in videos DO NOT count as text for the deafblind user. Some braille displays can read them, but they change too quickly.
+  - A transcript is the only solution
+
+### Multimedia for deafblind audiences
+
+No such thing. Text transcript is the only way. It should be easy to find and be identified as a transcript. Typical methods:
+- In regular paragraphs on the page
+  - If it's long, can be in a scrollable container
+  - Use a "skip transcript" link like a skip-nav link.
+- In a dialog, activated with a "Show transcript" button
+- On a separate page with a "Go to transcript" link.
+
+HTML doesn't have a native way to associate a transcript to a video even though there is a native way to associate captions with a video using the `<track>` element.
+
+Don't use `aria-describedby` to associate a transcript - it is read before the focus lands on the video. This text can't be paused or navigated through.
+
+### Ideal design for deafblind users
+
+- Text-first design: Multimedia is useless to this audience.
+- Simple: navigation and comprehension is easier
+- Semantic Structure: landmarks, headings, links, form elements, etc. Group things logically
+- Timing Control: braille is slow to read. Give users control over timing - including extending time limits and avoiding session timeouts.
+- Common wording: Makes navigation easier by allowing people to search the page for expected things. For example "Contact us" and "about us" are great, "get a hold of us" and "who we are" are not as common.
+- Screen reader techniques.
+
 ## Deaf: A Silent Visual UX
