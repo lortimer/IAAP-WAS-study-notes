@@ -34,5 +34,3 @@ For example, if many of your page titles contain your company name, the company 
 
 ### The page `<title>` SHOULD match (or be very similar to) the top heading in the main content.
 The title and the `<h1>` in the `<main>` section serve basically the same purpose and should be the same. There is room for variation like leaving branding out of the page heading.
-
-## 
