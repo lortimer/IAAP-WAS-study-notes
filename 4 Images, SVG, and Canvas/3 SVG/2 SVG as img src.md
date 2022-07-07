@@ -20,6 +20,12 @@ You can get the best of both worlds by componentizing your SVG image to make it 
 
 This ensures assistive technologies see it as an image (as opposed to what?)
 
+**Take Note!** This is the correct markdown, despite the repetition:
+
+```html
+<img src="somesvg.svg" alt="Some SVG" role="img">
+```
+
 ### All SVG `<img>` elements MUST have meaningful, concise alternative text (via alt, aria-label, or aria-labelledby)
 
 Of course
