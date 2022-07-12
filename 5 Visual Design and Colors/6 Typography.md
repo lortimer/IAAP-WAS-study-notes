@@ -31,3 +31,25 @@ This will leave sufficient whitespace to divide the paragraphs. The inter-paragr
 This doesn't mean you have to fix the width of a column. As long as text reflows when the user narrows the window or changes the text size, the user can create the layout they need.
 
 You can use CSS to set column widths that average 80 characters at any given zoom level / font size, but that is a huge pain and I think should be reserved for special circumstances.
+
+## Line Justification
+
+### Text SHOULD NOT be full justified
+
+Full-justified text, where the text spans the width of the column with lots of white space between words, is difficult for some people to read. Some people perceive "rivers" of white space running down the page between the words. It can also just make finding word boundaries generally difficult.
+
+## Visual Customizability
+
+### Fonts SHOULD be user-customizable
+
+This just means use regular text, not images of text, so people can customize:
+
+- Color (of the text and/or background)
+- Size
+- Font
+- Font variations (underline, italic, bold, etc.)
+- Line spacing
+- Paragraph spacing
+- Other visual characteristics
+
+Common use cases for customizing text are low vision and reading disabilities.
