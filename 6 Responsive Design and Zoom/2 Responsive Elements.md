@@ -62,15 +62,11 @@ The `<picture>` element is a robust feature and will serve only the desired imag
 </picture>
 ```
 
-
-
 ## Responsive Objects and Plugins
 
 ### Objects/plugins SHOULD reflow to fill most of the width of the viewport, without causing any horizontal viewport overflow
 
 `max-width: 100%` on the object's container is a surefire way to limit it to the viewport's width. 
-
-
 
 ## Responsive Tables
 
@@ -96,3 +92,32 @@ Below is a screenshot of this table reflowed into a single column. For each row,
 
 <img src="https://dequeuniversity.com/assets/images/module-visual-design/table-responsive.png" alt="Screenshot of the table above reflowed into a single column">
 
+
+
+## Responsive Text
+
+### Text SHOULD reflow to fill most of the width of the viewport, without causing any horizontal viewport overflow
+
+## Responsive UI Components
+
+### UI components SHOULD reflow to fill most of the width of the viewport, without causing any horizontal viewport overflow
+
+## Responsive Video
+
+Can you guess what the rule is going to be?
+
+### Video elements SHOULD reflow to fill most of the width of the viewport, without causing any horizontal viewport overflow
+
+## Simplification of the Content and the UI
+
+### Features of the content MAY be simplified, reduced in size, or eliminated when magnified or when viewed on small viewports
+
+If the meaning or understandability of the content suffers when viewed on a smaller screen, one of your options is to simplify the content or even remove parts of it.
+
+To me, this is an indicator that your content is too complex at any size, and simplification should be done at all viewport sizes.
+
+The example given is of Dequeue University's home page, where a decorative image is removed at narrow sizes.
+
+### Features of the interface SHOULD be simplified, reduced in size, or eliminated when magnified or when viewed on small viewports
+
+This is to maintain readability and adequate click/touch target size. Collapsing into a hanburger menu is an example of this.
