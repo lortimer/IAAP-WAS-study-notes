@@ -18,9 +18,9 @@ Good as a starting point from which to create accurate captions.
 
 ## Index
 
-- Open versus Closed Captions: Part X
-- Prerecorded Multimedia: Part X
-- Live Events: Part X
+- Open versus Closed Captions: Part 1
+- Prerecorded Multimedia: Part 1
+- Live Events: Part 1
 - What to Include in Captions: Part X
 - Visual Presentation of Captions: Part X
 - Visual Customizability: Part X
