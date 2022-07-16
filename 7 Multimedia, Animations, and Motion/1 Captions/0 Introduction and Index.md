@@ -21,7 +21,7 @@ Good as a starting point from which to create accurate captions.
 - Open versus Closed Captions: Part 1
 - Prerecorded Multimedia: Part 1
 - Live Events: Part 1
-- What to Include in Captions: Part X
+- What to Include in Captions: Part 2
 - Visual Presentation of Captions: Part X
 - Visual Customizability: Part X
 - Caption File Format: Part X
