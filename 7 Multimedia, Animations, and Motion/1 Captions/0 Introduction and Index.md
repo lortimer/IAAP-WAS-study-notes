@@ -23,5 +23,5 @@ Good as a starting point from which to create accurate captions.
 - Live Events: Part 1
 - What to Include in Captions: Part 2
 - Visual Presentation of Captions: Part 3
-- Visual Customizability: Part X
-- Caption File Format: Part X
+- Visual Customizability: Part 4
+- Caption File Format: Part 4
