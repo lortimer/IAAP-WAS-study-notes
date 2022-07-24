@@ -1,6 +1,6 @@
 # Introduction
 
-The examples in this directory come from a library of ARIA patterns created by Dequeue Systems, possibly Cauldron or something similar? Their goals:
+The examples in this directory come from a library of ARIA patterns created by Dequeue Systems [which can be found here](https://dequeuniversity.com/library/). Their goals:
 
 - To serve as examples of standard-compliant ARIA patterns, aligned with the W3C recommendations and documents:
 - Accessible Rich Internet Applications (WAI-ARIA) 1.1 opens in a new window
