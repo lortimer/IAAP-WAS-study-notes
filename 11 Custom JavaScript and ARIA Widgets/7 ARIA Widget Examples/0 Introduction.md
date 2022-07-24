@@ -11,6 +11,8 @@ The examples in this directory come from a library of ARIA patterns created by D
 - To use only plain JavaScript, without any dependencies on third-party libraries or methods (e.g. no jQuery or similar).
 - Avoid browser-specific workarounds to the extent possible.
 
+I am not going to include the code from these examples in this repository because it would take too long to copy it over for very little value. I will take notes on the relevant implementation details and things the course points out.
+
 
 W3C also has a set of patterns to follow, which should be your go-to library:
 
