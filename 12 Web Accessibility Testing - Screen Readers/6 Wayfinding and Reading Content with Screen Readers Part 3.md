@@ -51,8 +51,6 @@ Only available on JAWS (Insert + Control + G) and VoiceOver on macOS (Control + 
  | VoiceOver with Safari (macOS)         | 	Control + Option + Command + G                                                                            |
  | Narrator with Edge                    | 	Not available                                                                                             |
 
-
-
 ## Links
 
 ### How screen readers treat links
@@ -102,7 +100,6 @@ JAWS and NVDA let you do this with the "U" key, others don't.
 
 JAWS and NVDA let you do this with the "V" key. VoiceOver on macOS uses Control + Option + Command + V. Others don't have this.
 
-
 ## Tables
 
 ### How screen readers read tables
@@ -138,3 +135,14 @@ Available only on JAWS (Insert + F3 (to open Elements List), then select tables)
  | Narrator with Edge 	                  | Control + Alt + Arrow keys             |
 
 ### Searching within the Page
+
+## Searching within the Page
+
+| Screen Reader & Browser             | Command                                                         |
+|-------------------------------------|-----------------------------------------------------------------|
+| JAWS with Chrome, Edge, Firefox, IE | 	Control + F                                                    |
+ | NVDA with Firefox, Chrome, Edge 	   | Control + F                                                     |
+ | VoiceOver with Safari (iOS)         | 	Not available                                                  |
+ | TalkBack with Chrome, Firefox       | 	Swipe left then down, or use browser's "Find in page" function |
+ | VoiceOver with Safari (macOS)       | 	Control + Option + F                                           |
+ | Narrator with Edge                  | 	Control + F                                                    |
