@@ -44,6 +44,8 @@ Wait at least 2 seconds after page load, or after adding an empty live region to
 
 `all` and `removals` should be used sparingly. Removals aren't usually relevant, but an example case would be "buddies" leaving a chat room.
 
+The default is "additions text"
+
 ### aria-busy
 
 This suppresses announcements while a region is updating. All the updates will be announced when the value is changed from true to false.
@@ -62,7 +64,7 @@ A polite, atomic region. Some screen readers say "status" before an announcement
 
 A region containing a timer counting up or down. By default, this has `aria-live="off"` because timers usually update quickly.
 
-### role="marquee"
+### `role="marquee"`
 
 Designates a region as an area of scrolling text, like a stock or news ticker. By default, this has `aria-live="off"`.
 
