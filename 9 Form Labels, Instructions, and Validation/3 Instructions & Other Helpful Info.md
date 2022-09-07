@@ -79,6 +79,8 @@ Clearly identifying required fields helps prevent user frustration.
 
 HTML5 `required`: HTML5 has an attribute called `required` you can apply to an input. It is invisible and behaves like `aria-required`, but in some browsers, it also prevents the user from submitting the form with an empty value. It doesn't work in all browsers, so you need to handle errors yourself anyway.
 
+According to Mozilla, if the label already contains the word "required", aria-required should not be added to that input. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required#examples
+
 ### Required fields SHOULD have a visual indicator that the field is required
 
 Ways to do this include:
